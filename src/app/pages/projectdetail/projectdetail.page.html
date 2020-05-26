@@ -1,0 +1,18 @@
+<ion-content fullscreen="true">
+  <ion-header collapse="condense">
+    <ion-button fill="clear" size="large" (click)="cancel()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+    <ion-button fill="clear" size="large" (click)="logOut()">
+      <ion-icon name="log-out-outline"></ion-icon>
+    </ion-button>
+    <ion-title color="light">Project Detail</ion-title>
+  </ion-header>
+
+  <ion-content padding center text-center> 
+    <ion-list>
+      <ion-item no-lines color="#0000" color="dark">
+        <ion-label color="medium" >{{data}}</ion-label>
+      </ion-item>
+  </ion-list>
+  </ion-content>
